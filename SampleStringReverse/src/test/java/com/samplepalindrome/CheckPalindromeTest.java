@@ -11,6 +11,7 @@ import static org.junit.Assert.*;
  */
 public class CheckPalindromeTest {
     CheckPalindrome palindrome;
+
     @Before
     public void setUp() throws Exception {
         palindrome = new CheckPalindrome();
