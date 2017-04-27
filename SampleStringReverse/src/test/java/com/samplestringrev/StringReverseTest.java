@@ -11,6 +11,7 @@ import static org.junit.Assert.*;
  */
 public class StringReverseTest {
     StringReverse stringReverse;
+
     @Before
     public void setUp() throws Exception {
         stringReverse = new StringReverse();
@@ -18,14 +19,13 @@ public class StringReverseTest {
 
     @Test
     public void reversetest1() throws Exception {
-        Assert.assertEquals("tset",stringReverse.reverse("test"));
+        Assert.assertEquals("tset", stringReverse.reverse("test"));
     }
 
     @Test
     public void reversetest2() throws Exception {
-        Assert.assertEquals("tac",stringReverse.reverse("cat"));
+        Assert.assertEquals("tac", stringReverse.reverse("cat"));
     }
-
 
 
 }
